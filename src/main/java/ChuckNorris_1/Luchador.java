@@ -19,4 +19,8 @@ public class Luchador {
     public boolean esChuckNorris() {
         return true;
     }
+
+    public boolean sabeJJ() {
+        return sabeJJ;
+    }
 }
