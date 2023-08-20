@@ -4,6 +4,7 @@ public class Luchador {
     private String nombre;
     private int fuerza;
     private boolean sabeJJ;
+    private int cv = 3;
 
     // constructor
     public Luchador(String nombre, int fuerza, boolean sabeJJ) {
@@ -12,12 +13,12 @@ public class Luchador {
         this.sabeJJ = sabeJJ;
     }
 
-    public boolean esInsecto() {
-        return fuerza < 50;
+    public boolean esChuckNorris(int valorDado) {
+        return fuerza * cv > valorDado;
     }
 
-    public boolean esChuckNorris() {
-        return true;
+    public boolean esInsecto() {
+        return fuerza < 500;
     }
 
     public boolean sabeJJ() {
