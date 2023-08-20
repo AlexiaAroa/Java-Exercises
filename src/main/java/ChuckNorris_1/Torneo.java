@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Torneo {
     private ArrayList<Luchador> luchadores = new ArrayList<Luchador>();
 
-    public ArrayList<Luchador> losChuckNorris() {
+    public ArrayList<Luchador> losChuckNorris(int valorDado) {
         ArrayList<Luchador> resultado = new ArrayList<Luchador>();
         for (Luchador luchador: luchadores) {
-            if (luchador.esChuckNorris(10)) {
+            if (luchador.esChuckNorris(valorDado)) {
                 resultado.add(luchador);
             }
         }

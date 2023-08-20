@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class LuchadorTest {
+
     @Test
     public void TestEsChuckNorrisReturnTrue() {
         Luchador l1 = new Luchador("L1", 500, true);
