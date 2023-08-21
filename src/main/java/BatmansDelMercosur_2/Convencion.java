@@ -39,4 +39,8 @@ public class Convencion {
 
         return res;
     }
+
+    public void inscribir(Batman batman) {
+        batmans.add(batman);
+    }
 }
