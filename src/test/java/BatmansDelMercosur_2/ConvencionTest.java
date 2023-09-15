@@ -112,6 +112,7 @@ public class ConvencionTest {
         unaConvencion.inscribir(batman);
         unaConvencion.inscribir(batman2);
         unaConvencion.inscribir(batman3);
+
         assertEquals(batman, unaConvencion.elQueComioMasFacturas());
     }
 
